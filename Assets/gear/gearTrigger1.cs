@@ -10,7 +10,11 @@ public class gearTrigger1 : MonoBehaviour
     public int gearActive = 0;
 
     public float wallStartTime = 0;
+<<<<<<< HEAD
     public float wallMoveDeltaTime = 8;//ÕâÀï¸ÄÁËÓÎÏ·½Å±¾Ãæ°åÀïÒ²Òª¸Ä£¬·ñÔòÃ»ÓÃ£¡£¡£¡ÑªÀáµÄ½ÌÑµ£¡
+=======
+    public float wallMoveDeltaTime = 8;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²Òªï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Ñªï¿½ï¿½Ä½ï¿½Ñµï¿½ï¿½
+>>>>>>> 413af3c (jyh first)
 
     public GameObject gear;
     public GameObject wall;
@@ -35,7 +39,11 @@ public class gearTrigger1 : MonoBehaviour
         if(gearTrigger1Active == 1)//&& (relativeThingActive == 0))
         {
            // Debug.Log("active gear and wall!");
+<<<<<<< HEAD
             gear.transform.Rotate(new Vector3(0, 0, 1), 0.5f);//ÒªÒ»Ö±×ªµÄ»°¾Í²»ÄÜÏÞÖÆrelativethingactive£¡·ñÔòÖ»×ªÒ»Ë²¼ä£¬¿´²»³öÀ´¡£
+=======
+            gear.transform.Rotate(new Vector3(0, 0, 1), 0.5f);//ÒªÒ»Ö±×ªï¿½Ä»ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½relativethingactiveï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»×ªÒ»Ë²ï¿½ä£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+>>>>>>> 413af3c (jyh first)
             
         }
 
@@ -59,10 +67,17 @@ public class gearTrigger1 : MonoBehaviour
 
    
 
+<<<<<<< HEAD
     public void OnMouseDown()//Òª¸øÎïÌå¼ÓÉÏcollider2dºÍ¡°ÊÇ´¥·¢Æ÷¡±Ñ¡Ïî
     {
         Debug.Log("mouse down!");
         if (gearActive == 1)//µ±³ÝÂÖÁÁ×ÅµÄÊ±ºò
+=======
+    public void OnMouseDown()//Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½collider2dï¿½Í¡ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½
+    {
+        Debug.Log("mouse down!");
+        if (gearActive == 1)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åµï¿½Ê±ï¿½ï¿½
+>>>>>>> 413af3c (jyh first)
         {
             gearTrigger1Active = 1;
             Debug.Log("geartrigger1active is 1");
