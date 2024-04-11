@@ -32,23 +32,23 @@ public class pkey18d : MonoBehaviour
         {
             if (height >= (-23.75))
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.3f * Time.deltaTime);
                 direction = 1;
                 direction1 = 1;
             }
             if (height <= (-27.24))
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.002f);
+                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
                 direction = 2;
                 direction2 = 2;
             }
             if (direction == direction1)
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.1f * Time.deltaTime);
             }
             if (direction == direction2)
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.002f);
+                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
             }
         }
         if ((anything1.pkeyTrigger18Active == 1) && (anything2.pkeyTrigger19Active == 1))

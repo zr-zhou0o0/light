@@ -49,7 +49,7 @@ public class pgearTrigger11: MonoBehaviour
 
         if ((Time.time > wallStartTime) && (Time.time < wallStartTime + wallMoveDeltaTime) && (relativeThingActive == 1))
         {
-            wall1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+            wall1.transform.Translate(new Vector3(0, -3, 0) * 0.3f * Time.deltaTime);
         }
 
 

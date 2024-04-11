@@ -34,7 +34,7 @@ public class pkey22d : MonoBehaviour
         height = SetActiveObject1.GetComponent<pkey22d>().transform.position.y;//height的初始化要逐帧进行，确保height能一直进行更新！！
         if ((anything1.pkeyTrigger32Active == 1) && (pkeyRelativeThing1 == 0)&&(height>(-32.75)))
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, -2, 0) * 0.001f);
+            SetActiveObject1.transform.Translate(new Vector3(0, -2, 0) * 0.3f * Time.deltaTime);
         }
         if (height <= (-32.75))
         {
@@ -42,7 +42,7 @@ public class pkey22d : MonoBehaviour
         }
         if ((anything2.pkeyTrigger22Active == 1) && (pkeyRelativeThing2 == 0) && (height <(-28.45)))
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.001f);
+            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
             Debug.Log("pkeytrigger22 is 1");
             pkey22lMode.GetComponent<SpriteRenderer>().enabled = true;
         }

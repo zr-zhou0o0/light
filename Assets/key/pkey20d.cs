@@ -36,7 +36,7 @@ public class pkey20d : MonoBehaviour
         {
             if (height >= (-25.24))
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+                SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.3f * Time.deltaTime);
 
             }
             if (height <(-25.24))
@@ -61,7 +61,7 @@ public class pkey20d : MonoBehaviour
             //SetActiveObject1.GetComponent<pkey20d>().transform.position = Vector3.MoveTowards(SetActiveObject1.GetComponent<pkey20d>().transform.position, new Vector3(14.8, -22, 0));
             if (height < (-22.43))
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.001f);
+                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
             }
             if (height >= (-22.43))
             {

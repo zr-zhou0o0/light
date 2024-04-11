@@ -30,23 +30,23 @@ public class pkey29d : MonoBehaviour
         height = SetActiveObject1.GetComponent<pkey29d>().transform.position.y;
         if (height > (-27))
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+            SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.3f * Time.deltaTime);
             direction = 1;
             direction1 = 1;
         }
         if (height < (-32))
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.003f);
+            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
             direction = 2;
             direction2 = 2;
         }
         if (direction == direction1)
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.001f);
+            SetActiveObject1.transform.Translate(new Vector3(0, -3, 0) * 0.3f * Time.deltaTime);
         }
         if (direction == direction2)
         {
-            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.003f);
+            SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
         }
         if ((anything.pkeyTrigger29Active == 1) && (relativeThingActive == 0))
         {

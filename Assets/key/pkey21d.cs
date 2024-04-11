@@ -31,7 +31,7 @@ public class pkey21d : MonoBehaviour
         {
             if (height < (-19.92))
             {
-                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.001f);
+                SetActiveObject1.transform.Translate(new Vector3(0, 3, 0) * 0.3f * Time.deltaTime);
             }
             if (height >= (-19.92))
             {
