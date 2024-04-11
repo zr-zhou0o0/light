@@ -21,6 +21,9 @@ public class light1controller : MonoBehaviour
     public GameObject setActiveObject6;
     public GameObject setActiveObject7;
     public GameObject setActiveObject8;//齿轮
+    public GameObject setActiveObject9;//walls above
+    public GameObject setActiveObject10;
+    public GameObject setActiveObject11;
 
 
     // Start is called before the first frame update
@@ -37,6 +40,9 @@ public class light1controller : MonoBehaviour
         setActiveObject6 = GameObject.Find("wall6d");
         setActiveObject7 = GameObject.Find("wall7d");
         setActiveObject8 = GameObject.Find("gear1d");
+        setActiveObject9 = GameObject.Find("wall33l");  //注意！最后三个是直接active的，自己没挂脚本
+        setActiveObject10 = GameObject.Find("key32l");
+        setActiveObject11 = GameObject.Find("key33l");
     }
 
     // Update is called once per frame
@@ -72,6 +78,9 @@ public class light1controller : MonoBehaviour
             setActiveObject6.GetComponent<wall6>().wall6Active = 1;
             setActiveObject7.GetComponent<wall7>().wall7Active = 1;
             setActiveObject8.GetComponent<gear1>().gear1Active = 1;
+            setActiveObject9.GetComponent<SpriteRenderer>().enabled = true;
+            setActiveObject10.GetComponent<SpriteRenderer>().enabled = true;
+            setActiveObject11.GetComponent<SpriteRenderer>().enabled = true;
 
             GetComponent<AudioSource>().enabled = true;
 

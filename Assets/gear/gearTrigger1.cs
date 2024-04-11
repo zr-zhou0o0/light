@@ -10,7 +10,7 @@ public class gearTrigger1 : MonoBehaviour
     public int gearActive = 0;
 
     public float wallStartTime = 0;
-    public float wallMoveDeltaTime = 8;//这里改了游戏脚本面板里也要改，否则没用！！！血泪的教训！
+    public float wallMoveDeltaTime = 6;//这里改了游戏脚本面板里也要改，否则没用！！！血泪的教训！
 
     public GameObject gear;
     public GameObject wall;
@@ -51,7 +51,7 @@ public class gearTrigger1 : MonoBehaviour
 
         if((Time.time > wallStartTime) && (Time.time < wallStartTime+wallMoveDeltaTime) && (relativeThingActive == 1))
         {
-            wall.transform.Translate(new Vector3(0, -1, 0)*0.001f);
+            wall.transform.Translate(new Vector3(0, -1, 0)*0.5f*Time.deltaTime);
         }
 
 

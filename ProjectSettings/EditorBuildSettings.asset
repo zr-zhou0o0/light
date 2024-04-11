@@ -6,9 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/entrance.unity
+    path: Assets/start.unity
     guid: b8d732eb786af764d8f9e020c9b0b355
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/skyMain.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/portal.unity
+    guid: 2b7739b360189464d97f3d7b6a114f28
+  - enabled: 1
+    path: Assets/startDream.unity
+    guid: f220e2a2ab43e9a45adcf3f5e8e98754
+  - enabled: 1
+    path: Assets/startForest.unity
+    guid: d6e04b36f1ae8be4dbb91686168e44d7
+  - enabled: 1
+    path: Assets/forestMain.unity
+    guid: a8f0989e07d34bc4180ffcb21a85943f
+  - enabled: 1
+    path: Assets/startSky.unity
+    guid: 3112422c73434674c86775767a2c53f4
+  - enabled: 1
+    path: Assets/winf.unity
+    guid: e644938e53d3f884993251599d13d873
+  - enabled: 1
+    path: Assets/deads.unity
+    guid: d9f73c7f620ff504a9218ce695fe515c
+  - enabled: 1
+    path: Assets/wins.unity
+    guid: 20ae7f94cf741724398bf35b83c42c9b
+  - enabled: 1
+    path: Assets/sky3.unity
+    guid: 4215fe28f556dc84cb79f5c27d843fc5
+  - enabled: 1
+    path: Assets/sky2.unity
+    guid: 696d56d7966930f4db3db62b69f79aeb
   m_configObjects: {}

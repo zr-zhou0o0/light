@@ -30,7 +30,7 @@ public class buttonExit : MonoBehaviour
 
     IEnumerator loadScene()
     {
-        operation = SceneManager.LoadSceneAsync(0);
+        operation = SceneManager.LoadSceneAsync(6);
         yield return operation;
     }
 

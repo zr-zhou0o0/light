@@ -18,7 +18,7 @@ public class playercontroller : MonoBehaviour
     
 
     float moveSpeed = 1f;
-    float jumpForce = 9f;//精灵的重力是1，所以设1它跳不起来。设10会飞上月球。
+    float jumpForce = 10f;//精灵的重力是1，所以设1它跳不起来。设10会飞上月球。
 
     // Start is called before the first frame update
     void Start()
